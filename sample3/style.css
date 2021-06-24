@@ -5,3 +5,19 @@ body {
     background-color: #FFFFFF;
     color: #24292E;
 }
+
+/*-------------------- header -----------------------*/
+
+.header-container {
+    background-image: url(img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+    position: relative;
+}
+
+.header-container__logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
