@@ -14,10 +14,68 @@ body {
     background-position: center;
     height: 100vh;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .header-container__logo {
     position: absolute;
     top: 30px;
     right: 30px;
+}
+
+
+/*-------------------- magazine -----------------------*/
+
+.magazine {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.magazine__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.magazine__text--black {
+    font-size: 14px;
+    margin-bottom: 41px;
+}
+
+.magazine__item {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.magazine__link {
+    width: 48%;
+    position: relative;
+}
+
+.magazine__img {
+    width: 100%;
+}
+
+.magazine__text-area {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px 35px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+
+.magazine__heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.magazine__text--white {
+    font-size: 14px;
 }
