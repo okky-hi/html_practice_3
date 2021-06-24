@@ -54,6 +54,10 @@ body {
     position: relative;
 }
 
+.magazine__link:hover {
+    opacity: 0.7;
+}
+
 .magazine__img {
     width: 100%;
 }
