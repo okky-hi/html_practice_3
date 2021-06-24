@@ -79,3 +79,37 @@ body {
 .magazine__text--white {
     font-size: 14px;
 }
+
+
+/*-------------------- fashion -----------------------*/
+
+.fashion {
+    height: 520px;
+    background-image: url(img/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.fashion__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.fashion__text {
+    font-size: 14px;
+    margin-bottom: 48px;
+}
+
+.fashion__btn {
+    border: 1px solid #2A2A2A;
+    padding: 16px 36px;
+    font-size: 12px;
+}
+
+.fashion__btn:hover {
+    color: #707070;
+}
