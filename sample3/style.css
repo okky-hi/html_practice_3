@@ -7,6 +7,11 @@ body {
 }
 
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
 
 
 /*-------------------- header -----------------------*/
@@ -29,9 +34,7 @@ body {
 /*-------------------- magazine -----------------------*/
 
 .magazine {
-    margin: 0 auto;
     text-align: center;
-    padding: 0 5%;
     margin-bottom: 80px;
 }
 
@@ -47,14 +50,11 @@ body {
 }
 
 .magazine__item {
-    width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .magazine__link {
-    display: block;
     width: 48%;
     position: relative;
 }
@@ -132,8 +132,6 @@ body {
 }
 
 .catalog-antique__container {
-    padding: 0 5%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +177,6 @@ body {
 }
 
 .footer-inner {
-    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
