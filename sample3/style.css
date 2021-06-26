@@ -39,13 +39,13 @@ body {
 }
 
 .magazine__title {
-    font-size: 24px;
+    font-size: clamp(24px, 1vw, 32px);
     font-weight: bold;
     margin-bottom: 23px;
 }
 
 .magazine__text--black {
-    font-size: 14px;
+    font-size: clamp(14px, 1vw, 20px);
     margin-bottom: 41px;
 }
 
@@ -80,13 +80,13 @@ body {
 }
 
 .magazine__heading {
-    font-size: 24px;
+    font-size: clamp(24px, 1vw, 32px);
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .magazine__text--white {
-    font-size: 14px;
+    font-size: clamp(14px, 1vw, 20px);
 }
 
 
@@ -103,20 +103,20 @@ body {
 }
 
 .fashion__title {
-    font-size: 24px;
+    font-size: clamp(24px, 1vw, 32px);
     font-weight: bold;
     margin-bottom: 23px;
 }
 
 .fashion__text {
-    font-size: 14px;
+    font-size: clamp(14px, 1vw, 20px);
     margin-bottom: 48px;
 }
 
 .fashion__btn {
     border: 1px solid #2A2A2A;
     padding: 16px 36px;
-    font-size: 12px;
+    font-size: clamp(12px, 1vw, 14px);
 }
 
 .fashion__btn:hover {
@@ -148,14 +148,14 @@ body {
 }
 
 .catalog-antique__title {
-    font-size: 24px;
+    font-size: clamp(24px, 1vw, 32px);
     font-weight: bold;
     margin-bottom: 43px;
 }
 
 .catalog-antique__text {
     width: 100%;
-    font-size: 14px;
+    font-size: clamp(14px, 1vw, 20px);
     text-align: justify;
     margin-bottom: 31px;
 }
@@ -164,7 +164,7 @@ body {
     display: inline-block;
     border: 1px solid #2A2A2A;
     padding: 16px 36px;
-    font-size: 12px;
+    font-size: clamp(12px, 1vw, 14px);
 }
 
 .catalog-antique__btn:hover {
@@ -190,7 +190,7 @@ body {
 }
 
 .footer-inner__title {
-    font-size: 16px;
+    font-size: clamp(16px, 1vw, 24px);
     font-weight: bold;
     margin-bottom: 14px;
 }
@@ -201,12 +201,12 @@ body {
 }
 
 .footer-inner__item {
-    font-size: 12px;
+    font-size: clamp(12px, 1vw, 14px);
     line-height: 2;
 }
 
 .footer-inner__text {
-    font-size: 12px;
+    font-size: clamp(12px, 1vw, 14px);
     line-height: 2;
 }
 
