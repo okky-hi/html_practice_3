@@ -70,7 +70,7 @@ body {
 .magazine__text-area {
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 290px;
+    width: 50%;
     margin: 0 auto;
     padding: 16px 35px;
     position: absolute;
@@ -161,6 +161,7 @@ body {
 }
 
 .catalog-antique__btn {
+    display: inline-block;
     border: 1px solid #2A2A2A;
     padding: 16px 36px;
     font-size: 12px;
@@ -177,19 +178,11 @@ body {
 }
 
 .footer-inner {
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 110px 5%;
+    padding-top: 110px;
+    padding-bottom: 110px;
     color: #FFFFFF;
-}
-
-.footer-inner__logo {
-    width: 30%;
-}
-
-.footer-inner__menu {
-    width: 30%;
 }
 
 .footer-inner__content {
@@ -204,6 +197,7 @@ body {
 
 .footer-inner__list {
     list-style-type: square;
+    list-style-position: inside;
 }
 
 .footer-inner__item {
@@ -221,4 +215,57 @@ body {
     padding: 34px 0;
     text-align: center;
     background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 960px) {
+
+    .magazine {
+        margin-bottom: 50px;
+    }
+
+    .magazine__item {
+        flex-flow: column;
+    }
+
+    .magazine__link {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .catalog-antique {
+        padding: 30px 0;
+    }
+
+    .catalog-antique__container {
+        flex-flow: column;
+    }
+
+    .catalog-antique__item  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .footer-inner {
+        flex-flow: column;
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .footer-inner__content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-inner__logo {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .magazine__text--white {
+        display: none;
+    }
 }
