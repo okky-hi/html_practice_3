@@ -8,7 +8,7 @@ body {
 
 
 .wrapper {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -70,11 +70,11 @@ body {
 .magazine__text-area {
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: 16px 35px;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 0;
     right: 0;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .magazine__text--white {
-    font-size: clamp(14px, 1vw, 20px);
+    font-size: clamp(12px, 1vw, 14px);
 }
 
 
@@ -222,7 +222,7 @@ body {
 
 @media screen and (min-width: 1200px) {
     .wrapper {
-        max-width: 100%;
+        max-width: 1200px;
     }
 
     /*------ footer ------*/
