@@ -289,17 +289,33 @@ body {
     }
 
 
-    /*------ catalog-antique ------*/
+    /*------ catalog ------*/
 
-    .catalog-antique {
+    .catalog {
         padding: 30px 0;
     }
 
-    .catalog-antique__wrapper {
+    .catalog__wrapper {
         flex-flow: column;
     }
 
-    .catalog-antique__item  {
+    .catalog__item  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    /*------ antique ------*/
+
+    .antique {
+        padding: 30px 0;
+    }
+
+    .antique__wrapper {
+        flex-flow: column;
+    }
+
+    .antique__item  {
         width: 100%;
         margin-bottom: 30px;
     }
