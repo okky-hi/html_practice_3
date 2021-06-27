@@ -1,1 +1,352 @@
 @charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: #24292E;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+/*-------------------- header -----------------------*/
+
+.header {
+    background-image: url(img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.header__logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/*-------------------- magazine -----------------------*/
+
+.magazine {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.magazine__title {
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.magazine__text--color-black {
+    font-size: clamp(14px, 1vw, 20px);
+    margin-bottom: 41px;
+}
+
+.magazine__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magazine__link {
+    width: 48%;
+    position: relative;
+}
+
+.magazine__link:hover {
+    opacity: 0.7;
+}
+
+.magazine__img {
+    width: 100%;
+}
+
+.magazine__text-area {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+}
+
+.magazine__heading {
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.magazine__text--color-white {
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+
+/*-------------------- fashion -----------------------*/
+
+.fashion {
+    height: 520px;
+    background-image: url(img/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px 5% 0;
+    margin-bottom: 80px;
+}
+
+.fashion__title {
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.fashion__text {
+    font-size: clamp(14px, 1vw, 20px);
+    margin-bottom: 48px;
+}
+
+.fashion__btn {
+    border: 1px solid #2A2A2A;
+    padding: 16px 36px;
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+.fashion__btn:hover {
+    color: #707070;
+}
+
+
+/*-------------------- catalog -----------------------*/
+
+.catalog {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+
+.catalog__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.catalog__item  {
+    width: 48%;
+    text-align: center;
+}
+
+.catalog__img {
+    width: 100%;
+}
+
+.catalog__title {
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: bold;
+    margin-bottom: 43px;
+}
+
+.catalog__text {
+    width: 100%;
+    font-size: clamp(14px, 1vw, 20px);
+    text-align: justify;
+    margin-bottom: 31px;
+}
+
+
+/*-------------------- antique -----------------------*/
+
+.antique {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+
+.antique__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.antique__item  {
+    width: 48%;
+    text-align: center;
+}
+
+.antique__img {
+    width: 100%;
+}
+
+.antique__title {
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: bold;
+    margin-bottom: 43px;
+}
+
+.antique__text {
+    width: 100%;
+    font-size: clamp(14px, 1vw, 20px);
+    text-align: justify;
+    margin-bottom: 31px;
+}
+
+.antique__btn {
+    display: inline-block;
+    border: 1px solid #2A2A2A;
+    padding: 16px 36px;
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+.antique__btn:hover {
+    color: #707070;
+}
+
+/*-------------------- footer -----------------------*/
+.footer {
+    background-color: #333333;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    color: #FFFFFF;
+}
+
+.footer-inner__content {
+    width: 30%;
+}
+
+.footer-inner__title {
+    font-size: clamp(16px, 1vw, 24px);
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.footer-inner__list {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.footer-inner__item {
+    font-size: clamp(12px, 1vw, 14px);
+    line-height: 2;
+}
+
+.footer-inner__text {
+    font-size: clamp(12px, 1vw, 14px);
+    line-height: 2;
+}
+
+
+.copyright {
+    padding: 34px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+/*----------- wide-screen -----------*/
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    /*------ footer ------*/
+
+    .footer-inner__content {
+        width: 100%;
+    }
+}
+
+
+/*------------- tablet -------------*/
+
+@media screen and (max-width: 960px) {
+
+    /*------ magazine ------*/
+
+    .magazine {
+        margin-bottom: 50px;
+    }
+
+    .magazine__item {
+        flex-flow: column;
+    }
+
+    .magazine__link {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    /*------ catalog ------*/
+
+    .catalog {
+        padding: 30px 0;
+    }
+
+    .catalog__wrapper {
+        flex-flow: column;
+    }
+
+    .catalog__item  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    /*------ antique ------*/
+
+    .antique {
+        padding: 30px 0;
+    }
+
+    .antique__wrapper {
+        flex-flow: column;
+    }
+
+    .antique__item  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    /*------ footer ------*/
+
+    .footer-inner {
+        flex-flow: column;
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .footer-inner__content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-inner__logo {
+        text-align: center;
+    }
+
+
+}
+
+
+/*-------------   sp   -------------*/
+
+@media screen and (max-width: 479px) {
+    .magazine__text--color-white {
+        display: none;
+    }
+}
